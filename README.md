@@ -31,7 +31,7 @@ Pour l’utilisation de ce module, référez-vous aux indications présentes sur
 
 # RESSOURCES À TÉLÉCHARGER :
 
-Ressource utilisation : [tsal6200](https://github.com/pierron-asco-celda/33162-Capteur_Couleur_GROVE/blob/main/src/Datasheet_TCS3472.pdf)
+Ressource utilisation : [TSAL6200](https://github.com/pierron-asco-celda/33136-Emetteur_infrarouge_GROVE/blob/main/src/Datasheet_tsal6200.pdf)
 
 # Exemple :
 ### Arduino / C++
