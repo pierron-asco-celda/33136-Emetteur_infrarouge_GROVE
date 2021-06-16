@@ -39,7 +39,7 @@ Ressource utilisation : [TSAL6200](https://github.com/pierron-asco-celda/33136-E
 /*
     ** Envoie information IR module Grove **
        PIN D7 Module shield GROVE
-       Moniteur série -> Baud rate 9600.
+       Moniteur série -> Baud rate 9600.*
        mySender.send(SONY, 0xa8bca, 20); // nom de l'objet, 
        code de l'action, n-bits de l'action : (SONY,0xa8bca, 20)
        -> appareil Sony, BP on, 20 bits. --> #include <IRLib_P02_Sony.h>
@@ -67,5 +67,6 @@ void loop() {
 }
 ```
 ## À propos :
+<div style="text-align: justify">*Le débit en bauds est un taux de transfert de données en unités de bits par seconde (bps). Si le débit en bauds est de 9600, cela signifie que la possibilité d’envoyer des données est de 9600 bits en une seconde. 1 caractère est identique à 1 octet.</div>
 <br>
 PIERRON ASCO-CELDA (https://www.pierron.fr).
