@@ -61,7 +61,7 @@ void setup() {
 
 void loop() {
   if (Serial.read() != -1) {
-    mySender.send(SONY, 0xa8bca, 20);
+    mySender.send(SONY, 0xa8bca, 20); // cf. datasheet src
     Serial.println(F("OK"));
   }
 }
